@@ -42,6 +42,14 @@
     "config"
   ],
   "author": "Vasil Velikov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasilVelikov00/ts-stack"
+  },
+  "bugs": {
+    "url": "https://github.com/VasilVelikov00/ts-stack/issues"
+  },
+  "homepage": "https://github.com/VasilVelikov00/ts-stack#readme",
   "license": "MIT",
   "description": "Generate a fullstack project from a config with react, vite, hono, drizzle and turborepo",
   "dependencies": {
