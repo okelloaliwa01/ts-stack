@@ -1,13 +1,13 @@
 # Configuration Guide
 
-The yaml configuration file is the core of Scaffolder. It describes the data schemas, data sources, and pages in your
-application. Scaffolder uses this config to generate a fully working monorepo.
+The yaml configuration file is the core of ts-stack. It describes the data schemas, data sources, and pages in your
+application. ts-stack uses this config to generate a fully working monorepo.
 
 ## Schemas
 
 Schemas define the shape of your data.
 
-Scaffolder will use them to generate:
+ts-stack will use them to generate:
 
 - Zod schemas for runtime validation (shared between client and server)
 - Database tables with Drizzle
@@ -34,7 +34,7 @@ This generates:
 ## Sources
 
 Sources describe where data comes from in your app. Each source references a schema that its data must conform to.
-Scaffolder generates React Query hooks to fetch data from each source.
+ts-stack generates React Query hooks to fetch data from each source.
 
 Example (local source referencing post):
 
@@ -70,7 +70,7 @@ pages:
 
 #### Inline
 
-Define a static collection of items directly in your config. Scaffolder generates a static JavaScript object and exposes
+Define a static collection of items directly in your config. ts-stack generates a static JavaScript object and exposes
 it via React Query hooks.
 
 #### Local
@@ -79,7 +79,7 @@ Generate a Drizzle table and Hono server endpoints. The React Query hooks will c
 
 #### Remote
 
-Reference an external API. Scaffolder generates React Query hooks to fetch data from that API.
+Reference an external API. ts-stack generates React Query hooks to fetch data from that API.
 
 ## Pages
 
@@ -107,4 +107,4 @@ pages:
                 text: item.footnote
 ```
 
-Scaffolder will generate a React Router route for /local and render this component tree.
+ts-stack will generate a React Router route for /local and render this component tree.

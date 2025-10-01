@@ -1,4 +1,4 @@
-# scaffolder
+# ts-stack
 
 This project came into existence because I got tired of looking for template repositories, creating and configuring
 projects from scratch, setting up directory structures and monorepos and configuring linting and code style each time I
@@ -48,7 +48,7 @@ Check out the configuration guide [here](./GUIDE.md) to create your yaml config 
 Then run the following command:
 
 ```shell
-npx scaffolder example.yaml my-generated-project
+npx ts-stack example.yaml my-generated-project
 ```
 
 After that you can go into the generated project's directory and start the project with `npm run dev`
