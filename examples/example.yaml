@@ -1,0 +1,96 @@
+schemas:
+  post:
+    id: number
+    title: string
+    description: string
+    content: string
+    footnote: string
+  jpPost:
+    userId: number
+    id: number
+    title: string
+    body: string
+
+sources:
+  localPosts:
+    type: local
+    schema: post
+  remotePosts:
+    type: remote
+    schema: jpPost
+    url: https://jsonplaceholder.typicode.com/posts
+  inlinePosts:
+    type: inline
+    schema: post
+    items:
+      - id: 1
+        title: Post 1
+        description: Post 1
+        content: Content post 1
+        footnote: Footnote post 1
+      - id: 2
+        title: Post 2
+        description: Post 2
+        content: Content post 2
+        footnote: Footnote post 2
+
+pages:
+  - name: Inline
+    icon: List
+    components:
+      - type: list
+        source: inlinePosts
+        items:
+          components:
+            - type: card
+              header:
+                title: item.title
+                description: item.description
+                action:
+                  components:
+                    - type: button
+                      text: Edit Post
+                      size: sm
+              content:
+                text: item.content
+              footer:
+                text: item.footnote
+
+  - name: Remote
+    icon: List
+    components:
+      - type: list
+        source: remotePosts
+        items:
+          components:
+            - type: card
+              header:
+                title: item.title
+                action:
+                  components:
+                    - type: button
+                      text: Edit Post
+                      size: sm
+              content:
+                text: item.body
+
+  - name: Local
+    icon: List
+    components:
+      - type: list
+        source: localPosts
+        items:
+          components:
+            - type: card
+              header:
+                title: item.title
+                description: item.description
+                action:
+                  components:
+                    - type: button
+                      text: Edit Post
+                      size: sm
+              content:
+                text: item.content
+              footer:
+                text: item.footnote
